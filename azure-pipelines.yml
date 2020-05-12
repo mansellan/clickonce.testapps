@@ -34,7 +34,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    sourceFolder: $(Build.SourcesDirectory)
+    sourceFolder: $(Build.SourcesDirectory)/bin/release
     targetFolder: $(Build.ArtifactStagingDirectory)
 
 - task: PublishBuildArtifacts@1
