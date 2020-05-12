@@ -34,7 +34,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    sourceFolder: $(Build.SourcesDirectory)/bin/release
+    sourceFolder: $(Build.SourcesDirectory)/net472.msb.wpf/bin/release
     targetFolder: $(Build.ArtifactStagingDirectory)
 
 - task: PublishBuildArtifacts@1
