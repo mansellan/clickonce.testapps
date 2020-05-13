@@ -35,12 +35,12 @@ steps:
 - task: CopyFiles@2
   inputs:
     sourceFolder: $(Build.SourcesDirectory)/net472.msb.wpf/bin/release
-    targetFolder: $(Build.ArtifactStagingDirectory)
+    targetFolder: $(Build.ArtifactStagingDirectory)/net472.msb.wpf
 
 - task: CopyFiles@2
   inputs:
     sourceFolder: $(Build.SourcesDirectory)/netcore.sdk.wpf/bin/release
-    targetFolder: $(Build.ArtifactStagingDirectory)
+    targetFolder: $(Build.ArtifactStagingDirectory)/netcore.sdk.wpf
 
 - task: PublishBuildArtifacts@1
   inputs:
