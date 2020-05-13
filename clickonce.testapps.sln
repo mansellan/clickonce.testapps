@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net472.msb.wpf", "net472.msb.wpf\net472.msb.wpf.csproj", "{D76F734B-B0AD-4259-ACEA-8910662DC8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore.sdk.wpf", "netcore.sdk.wpf\netcore.sdk.wpf.csproj", "{9F390ACB-2C44-4A8E-8152-C3B3649F09E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore.sdk.wpf", "netcore.sdk.wpf\netcore.sdk.wpf.csproj", "{9F390ACB-2C44-4A8E-8152-C3B3649F09E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
