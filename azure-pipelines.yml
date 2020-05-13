@@ -39,7 +39,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    sourceFolder: $(Build.SourcesDirectory)/netcore.sdk.wpf/bin/release
+    sourceFolder: $(Build.SourcesDirectory)/netcore.sdk.wpf/bin/release/netcoreapp3.1
     targetFolder: $(Build.ArtifactStagingDirectory)/netcore.sdk.wpf
 
 - task: PublishBuildArtifacts@1
