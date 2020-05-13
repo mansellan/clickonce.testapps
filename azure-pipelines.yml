@@ -32,6 +32,13 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: DeleteFiles@1
+  inputs:
+    SourceFolder: 
+    Contents: |
+      /??/*
+      /??-*/*
+
 - task: CopyFiles@2
   inputs:
     sourceFolder: $(Build.SourcesDirectory)/net472.msb.wpf/bin/release
