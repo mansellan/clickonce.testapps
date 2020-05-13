@@ -36,8 +36,8 @@ steps:
   inputs:
     SourceFolder: 
     Contents: |
-      /??/*
-      /??-*/*
+      /**/??
+      /**/??-*
 
 - task: CopyFiles@2
   inputs:
